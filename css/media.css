@@ -1,0 +1,180 @@
+@media screen and (min-width: 360px) {
+  /* Footer */
+
+  .all-rights .fas {
+    margin: 0.33rem 0.3rem 0 0;
+    padding-top: 0;
+  }
+
+  .all-rights .inc {
+    font-size: 1rem;
+  }
+
+  /* End Footer */
+}
+
+@media screen and (min-width: 460px) {
+  /* Header */
+
+  .sub-title {
+    transform: translateY(0px);
+    opacity: 1;
+    font-size: 1.1rem;
+  }
+
+  /* End Header */
+}
+
+@media screen and (min-width: 680px) {
+  /* Header */
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .sub-title {
+    font-size: 1.35rem;
+  }
+
+  /* End Header */
+}
+
+@media screen and (min-width: 850px) {
+  /* Life style */
+
+  .life-box:nth-child(3) {
+    grid-column: auto;
+  }
+
+  /* End Life style */
+}
+
+@media screen and (min-width: 768px) {
+  /* Header */
+
+  .title {
+    font-size: 6rem;
+  }
+
+  .sub-title {
+    font-size: 1.4rem;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
+
+  .navigation nav .menu {
+    position: relative;
+    flex-direction: unset;
+    transform: none;
+    width: 100%;
+    background: inherit;
+    padding: 0;
+  }
+
+  .navigation nav .menu::before {
+    height: 0;
+  }
+
+  .navigation nav .menu li {
+    border: none;
+  }
+
+  .navigation nav .menu li a {
+    margin: 0 0 0 1.5rem;
+    color: #fff;
+  }
+
+  /* End Header */
+
+  /* Galery */
+
+  .galery {
+    grid-template-areas:
+      "data-first data-second"
+      "data-first data-last";
+  }
+
+  .inside-title {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .inside-text {
+    max-width: 500px;
+    font-size: 1.1rem;
+  }
+
+  /* End Galery */
+
+  /* Menu */
+
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60vh;
+  }
+
+  .menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .menu-title {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+  }
+
+  .menu-text {
+    padding: 0 1rem;
+    line-height: 1.6;
+    max-width: 440px;
+    font-size: 1.16rem;
+  }
+  /* End Menu */
+
+  /* Interested*/
+
+  .interested-title {
+    font-size: 1.5rem;
+  }
+
+  /* End Interested*/
+
+  /* Footer */
+
+  .footer-title {
+    display: block;
+  }
+
+  .footer-menu {
+    display: flex;
+  }
+
+  .all-rights {
+    justify-content: flex-start;
+  }
+  /* End Footer */
+}
+
+@media screen and (min-width: 1100px) {
+  .navigation {
+    transition: transform 1s ease-out;
+    max-width: 1100px;
+    margin: 0 auto;
+    transform: translateY(20px);
+  }
+}
+
+@media screen and (max-height: 414px) {
+  /* Modal */
+
+  .modal {
+    padding: 4.5rem;
+  }
+
+  /* End Modal */
+}

@@ -1,0 +1,16 @@
+{
+  "name": "luxor-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "Krasimir Manev",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
